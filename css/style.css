@@ -33,7 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../back.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -75,15 +75,15 @@ body {
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+    background-color: #ff7a79;
 }
 
-.budget__income--text,
-.budget__expenses--text {
+.budget__income--text, .budget__expenses--text {
     float: left;
-    font-size: 13px;
-    color: #444;
+    font-size: 14px;
+    color: #fff;
     margin-top: 2px;
+    font-weight: bold;
 }
 
 .budget__income--value,
